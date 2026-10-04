@@ -1,9 +1,3 @@
-This project generates replies to YouTube comments using an AI API.
-
-How it works:
-
-The user sends a YouTube comment to the API. The server sends the comment to the AI model and returns a generated reply.
-
 API endpoint:
 
 POST http://localhost:3000/api/v1/comments
@@ -80,3 +74,20 @@ The project uses the gpt-4o-mini model through the Metropolia OpenAI API.
 Testing
 
 The API was tested using Postman.
+
+
+Task 2 / Image Generator
+
+## Prompt / input
+
+A professional YouTube thumbnail about learning programming, modern technology style, no logos or text
+
+## API request
+
+POST http://localhost:3000/api/v1/images
+
+Model: gpt-image-2
+
+## Result
+
+The image was generated as a Base64-encoded PNG response and saved as
